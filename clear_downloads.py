@@ -1,7 +1,7 @@
 """
 This script clears everything (files + folders) from the Downloads folder.
 
-⚠️ WARNING:
+WARNING:
 - All items will be permanently deleted (they do NOT go to Recycle Bin/Trash).
 - Be careful before running.
 """
@@ -29,3 +29,4 @@ for item in os.listdir(cwd):
 
 # Step 5: Show what remains
 print("Remaining items:", os.listdir(cwd))
+
